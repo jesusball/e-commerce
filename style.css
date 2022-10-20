@@ -42,6 +42,7 @@ p {
 /*! header start */
 header {
     border-bottom: 1px solid #dee0ea;
+    position: relative;
 }
 
 .global-notification {
@@ -194,6 +195,61 @@ header .menu-dropdown-content a:hover {
 .header-center .menu-list .menu-list-item:hover .menu-dropdown-wrapper {
     opacity: 1;
     visibility: visible;
+}
+
+.menu-dropdown-megamenu {
+    background-color: white;
+    border: 1px solid #dee0ea;
+    padding: 22px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.megamenu-wrapper .menu-dropdown-wrapper {
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.megamenu-wrapper {
+    position: static !important;
+}
+
+.megamenu-wrapper .megamenu-links {
+    display: flex;
+    column-gap: 50px;
+}
+
+.megamenu-wrapper .megamenu-products-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.megamenu-wrapper .megamenu-products-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.megamenu-wrapper .megamenu-products-list a {
+    font-size: 14px;
+}
+
+.megamenu-wrapper .megamenu-single-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.megamenu-wrapper .megamenu-single-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.megamenu-wrapper .megamenu-single-button {
+    margin-top: 5px;
 }
 
 /*? menu dropdown end */
