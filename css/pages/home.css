@@ -25,7 +25,7 @@
 
 
 /*! products start */
-.products{
+.products {
     margin-bottom: 40px;
 }
 
@@ -39,17 +39,18 @@
 
 
 /*! campaign start */
-.campaigns .campaigns-wrapper{
+.campaigns .campaigns-wrapper {
     display: flex;
     gap: 30px;
     margin: 30px;
     flex-wrap: wrap;
 }
+
 /*! campaign end */
 
 
 /*! blogs start */
-.blogs{
+.blogs {
     margin-bottom: 30px;
 }
 
@@ -58,13 +59,38 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
+
 /*! blogs end */
 
+/*! brands start */
+.brands {
+    margin: 40px 0;
+}
 
-/*! responsive */
+.brand-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #dee0ea;
+    padding: 30px 5px;
+}
 
-@media (max-width: 768px){
-    .blogs .blog-list{
+.brand-list .brand-item {
+    opacity: 0.4;
+    transition: .2s ease opacity;
+}
+
+.brand-list .brand-item:hover {
+    opacity: 1;
+}
+/*! brands end
+
+
+
+/* responsive */
+
+@media (max-width: 768px) {
+    .blogs .blog-list {
         grid-template-columns: 1fr;
     }
 }
