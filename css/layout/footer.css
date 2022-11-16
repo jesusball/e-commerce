@@ -114,6 +114,37 @@
 
 /*! widgets end */
 
+/*! copyright start */
+
+.footer-copyright {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyright .site-copyright {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.footer-copyright .footer-menu {
+    margin-left: auto;
+}
+
+.footer-copyright .footer-menu-list {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    column-gap: 10px;
+}
+
+.footer-copyright .footer-menu-list .list-item:not(:last-child) {
+    padding-right: 10px;
+    border-right: 1px solid #dee0ea;
+}
+
+/*! copyright end */
+
 
 /*! responsive */
 
@@ -123,7 +154,7 @@
         row-gap: 20px;
     }
 
-    .footer .brand-info{
+    .footer .brand-info {
         margin-bottom: 20px;
     }
 
@@ -131,7 +162,17 @@
         width: unset;
     }
 
-    .widgets-row .footer-widgets > div{
+    .widgets-row .footer-widgets>div {
         flex: unset;
+    }
+
+    .footer-copyright{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+    }
+
+    .footer-copyright .footer-menu{
+        margin-left: unset;
     }
 }
