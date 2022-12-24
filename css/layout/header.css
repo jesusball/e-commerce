@@ -99,7 +99,7 @@ header {
     font-size: 23px;
 }
 
-.header-right .search-button {
+.header-right .toggle-button {
     border: none;
     background-color: transparent;
 }
