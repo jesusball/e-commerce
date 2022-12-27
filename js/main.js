@@ -1,4 +1,5 @@
 import headerFunc from "./header.js";
+import productsFunc from "./products.js";
 
 //! add product to localStorage
 async function getData() {
@@ -9,5 +10,3 @@ async function getData() {
 }
 
 getData();
-
-const products = localStorage.getItem("products");
