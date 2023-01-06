@@ -1,7 +1,7 @@
 export function product1() {
 
     const config = {
-        type: "carousel",
+        // type: "carousel",
         perView: 4,
         gap: 20,
         autoplay: 3000,
