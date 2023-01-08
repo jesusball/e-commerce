@@ -3,8 +3,6 @@ export function thumbsActiveFunc() {
     const singleImage = document.querySelector("#single-image");
 
     thumbs.forEach((item) => {
-        item.classList.remove("active");
-
         item.addEventListener("click", function() {
             thumbs.forEach((image) => {
                 image.classList.remove("active");
