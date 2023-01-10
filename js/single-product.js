@@ -20,11 +20,11 @@ const productTitle = document.querySelector(".product-title");
 productTitle.innerHTML = findProduct.name;
 
 //! product price
-const newPriceDOM = `$${document.querySelector(".new-price")}`;
-const oldPriceDOM = `$${document.querySelector(".old-price")}`;
+const newPriceDOM = document.querySelector(".new-price");
+const oldPriceDOM = document.querySelector(".old-price");
 
-newPriceDOM.innerHTML = findProduct.price.newPrice.toFixed(2);
-oldPriceDOM.innerHTML = findProduct.price.oldPrice.toFixed(2);
+newPriceDOM.innerHTML = `$${findProduct.price.newPrice.toFixed(2)}`;
+oldPriceDOM.innerHTML = `$${findProduct.price.oldPrice.toFixed(2)}`;
 
 //! product gallery
 const singleImageDOM = document.querySelector("#single-image");
