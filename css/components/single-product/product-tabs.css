@@ -17,12 +17,20 @@
     margin-bottom: 20px;
 }
 
-.single-tabs .tab-list.active {
+.single-tabs .tab-list a.active {
     font-weight: 500;
 }
 
 .single-tabs .tab-panel-description {
     font-size: 12px;
+}
+
+.single-tabs .content {
+    display: none;
+}
+
+.single-tabs .content.active {
+    display: block;
 }
 
 .single-tabs .tab-panel-information table {
